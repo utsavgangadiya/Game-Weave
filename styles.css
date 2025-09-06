@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image:url(animal1.jpg);
+    background-repeat: no-repeat;
+    background-size: 1270px 700px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.logo {
+    position: fixed; 
+    top: 10px; 
+    left: 10px; 
+    width: 200px; 
+    height: auto; 
+    z-index: 1000; 
+}
+
+
+.game-panel {
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    max-width: 600px;
+    width: 100%;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(135deg, #004d40, #fad0c4);
+    z-index: -1;
+}
+
+
+
+h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#instruction {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+#hidden-word {
+    font-size: 1.5rem;
+    letter-spacing: 0.5rem;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+#user-input {
+    font-size: 1rem;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: calc(100% - 24px); 
+}
+
+#guess-button {
+    background-color: #063c13;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+#guess-button:hover {
+    background-color: #146025;
+}
+
+#result {
+    font-size: 1rem;
+    color: #605a5a;
+    margin: 10px 0;
+}
+
+#restart-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+#restart-button:hover {
+    background-color: #0056b3;
+}

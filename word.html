@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruits, Vegetables, Colors, and Animals</title>
+    <link rel="stylesheet" href="word.css">
+    <style>
+        body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #004d40, #fad0c4); 
+    color: #444;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+
+.list-container {
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: space-between;
+}
+
+.list {
+    flex: 1 1 22%; 
+    background: #fafafa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin: 10px; 
+    box-sizing: border-box; 
+}
+
+h2 {
+    color: #555;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-bottom: 3px solid #eee;
+    padding-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    color: #666;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+ul li:last-child {
+    border-bottom: none;
+}
+
+.fruits {
+    background: linear-gradient(135deg, #f8b195, #f67280);
+}
+
+.vegetables {
+    background: linear-gradient(135deg, #c9d6ff, #e2e2e2);
+}
+
+.colors {
+    background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+}
+
+.animals {
+    background: linear-gradient(135deg, #fbc2eb, #86af49);
+}
+
+
+@media (max-width: 768px) {
+    .list {
+        flex: 1 1 100%; 
+    }
+}
+
+.navbar {
+    background-color: #004d40;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    display: inline;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.3em;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+    color: #9ec0b8;
+}
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li> 
+            <li><a href="aboutus.html">About Us</a></li> 
+            <li><a href="word.html">Word Dictionary</a></li> 
+        </ul>
+    </nav>
+        <h1>Word Dictionary</h1>
+
+        <div class="list-container">
+            <div class="list fruits">
+                <h2>Fruits</h2>
+                <ul>
+                    <li>Apple</li>
+                    <li>Cherry</li>
+                    <li>Dragon Fruit</li>
+                    <li>Honeydew</li>
+                    <li>Kiwi</li>
+                    <li>Lemon</li>
+                    <li>Mango</li>
+                    <li>Papaya</li>
+                    <li>Raspberry</li>
+                    <li>Strawberry</li>
+                    <li>Watermelon</li>
+                    <li>Strawberry</li>
+                    
+                    <li>Red Bell Pepper</li>
+                    <li>Orange</li>
+                    <li>Banana</li>
+                    <li>Pineapple</li>
+                    <li>Grapes</li>
+                    <li>Blueberry</li>
+                    <li>Blackberry</li>
+                   
+                    <li>Honeydew</li>
+                </ul>
+            </div>
+
+            <div class="list vegetables">
+                <h2>Vegetables</h2>
+                <ul>
+                    <li>Carrot</li>
+                    <li>Eggplant</li>
+                    <li>Pumpkin</li>
+                    <li>Cucumber</li>
+                    <li>Broccoli</li>
+                    <li>Spinach</li>
+                    <li>Potato</li>
+                    <li>Onion</li>
+                    <li>Tomato</li>
+                    <li>Bell Pepper</li>
+                    <li>Cauliflower</li>
+                    <li>Zucchini</li>
+                    <li>Asparagus</li>
+                    <li>Peas</li>
+                    <li>Garlic</li>
+                    <li>Radish</li>       
+<li>Cabbage</li>        
+<li>Brussels Sprouts</li> 
+<li>Sweet Corn</li>  
+<li>Turnip</li>  
+                </ul>
+            </div>
+
+            <div class="list colors">
+                <h2>Colors</h2>
+                <ul>
+                    <li>Red</li>
+                    <li>Green</li>
+                    <li>Yellow</li>
+                    <li>Orange</li>
+                    <li>Purple</li>
+                    <li>Blue</li>
+                    <li>White</li>
+                    <li>Brown</li>
+                    <li>Pink</li>
+                    <li>Black</li>
+                    <li>Gray</li>
+                    <li>Magenta</li>
+                    <li>Cyan</li>
+                    <li>Turquoise</li>
+                    <li>Lavender</li>
+                    <li>Maroon</li>
+                    <li>Navy</li>
+                    <li>Gold</li>
+                    <li>Silver</li>
+                    <li>Beige</li>
+                </ul>
+            </div>
+
+            <div class="list animals">
+                <h2>Animals</h2>
+                <ul>
+                    <li>Cat</li>
+                    <li>Dog</li>
+                    <li>Elephant</li>
+                    <li>Lion</li>
+                    <li>Tiger</li>
+                    <li>Bear</li>
+                    <li>Giraffe</li>
+                    <li>Kangaroo</li>
+                    <li>Rabbit</li>
+                    <li>Zebra</li>
+                    <li>Panda</li>
+                    <li>Horse</li>
+                    <li>Monkey</li>
+                    <li>Fox</li>
+                    <li>Wolf</li>
+                    <li>Deer</li>
+                    <li>Koala</li>
+                    <li>Penguin</li>
+                    <li>Cheetah</li>
+                    <li>Leopard</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
