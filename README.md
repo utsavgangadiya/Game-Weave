@@ -12,15 +12,6 @@ Welcome to **Game Weave** – a fun and educational web-based spelling and vocab
 - **Simple Login:** Enter your name and email to start playing.
 - **About Us:** Meet the creators and learn about the mission behind Game Weave.
 
----
-
-## 🖼️ Screenshots
-
-| Login Page | Game Page | Word Dictionary |
-|:----------:|:---------:|:---------------:|
-| ![Login](./screenshots/login.png) | ![Game](./screenshots/game.png) | ![Dictionary](./screenshots/dictionary.png) |
-
-*Screenshots are for illustration. Replace with your own if available.*
 
 
 ---
@@ -76,7 +67,7 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 
 ## 📧 Contact
 
-For questions or feedback, email us at [info@gameweave.com](mailto:info@gameweave.com).
+For questions or feedback, email us at [info@gameweave.com](mailto:utsavgangadiya886@gmail.com).
 
 ---
 
